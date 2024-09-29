@@ -1,0 +1,858 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+* {
+    color: white;
+}
+/* ------------ NAVBAR ------------- */
+.container {
+        position: absolute;
+        top: 0px;
+        z-index: 999;
+        box-shadow: 5px 5px 10px grey;
+    }
+.container-navbar {
+        position: fixed;
+        background-color: black;
+    }
+.nav-image{
+        width: 100%;
+    }
+.nav-image img{
+    height: 95px;
+    width: 100px;
+    background-color: black;
+}
+.nav-image ul {
+    position: relative;
+    margin-bottom: -10px;
+    left: 35%;
+    top: -30px;     
+    display: inline-block;
+    
+}
+.nav-image ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    
+}
+.nav-image ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: white;
+}
+.nav-image ul li a:hover {
+    color: yellow;
+}
+.container .nav-image  {
+    display: inline-block;
+    padding: 10px 55px;
+    border-bottom: 2px solid white;
+}
+
+.nav-image ul li a span {
+    border: 1px solid blue;
+    padding: 10px 15px;
+    border-radius: 25px;
+    background-color: yellow;
+    color: black;
+}
+
+/* --------- INTRODUCTION --------- */
+.intro {
+    display: flex;
+    padding: 20px 60px;
+    margin-top: 12%;
+}
+#starting-intro {
+    padding-right: 30px;
+}
+#starting-intro h1,p {
+    color: white;
+}
+#starting-intro h1 {
+    font-size: 52px;
+}
+#starting-intro p {
+    font-size: 19px;
+    word-spacing: 8px;
+}
+#starting-intro span{
+    border: 1px solid blue;
+    padding: 12px 30px;
+    border-radius: 25px;
+    background-color:yellow;
+    color: black; 
+    position: relative;
+    top: 50px;     
+    font-size: 20px;
+}
+
+#intro-image img {
+    width: 500px;
+    height: 500px;
+}
+/* ----------- ABOUT ------------ */
+.about {
+    display: flex;
+    justify-content: space-between;
+    padding: 90px 0px;
+    background-color:rgba(128, 128, 128, .4);
+}
+#about-content {
+    width: 60%;
+    margin-left: 40px;
+}
+#about-content h2 {
+    font-size: 25px;
+    font-weight: bold;
+}
+#about-content h2 span {
+    color: yellow;
+}
+#about-content p {
+    font-size: 20px;
+}
+#connect {
+    border: 1px solid blue;
+    padding: 12px 30px;
+    border-radius: 25px;
+    background-color:yellow;
+    color: black; 
+    position: relative;
+    top: 50px;     
+    font-size: 20px;
+    width: 28%;
+}
+.about-image {
+  margin-left: 60px;
+}
+.about-image img {
+    border: 3px solid white;
+    width: 300px;
+    height: 200px;
+}
+.about-image span img {
+    border: 3px solid yellow;
+    position: relative;
+    left: 175px;
+    top: 20px;
+}
+#about-content a i {
+    color: yellow;
+    
+}
+/* ----------- COURSES ------------ */
+.Courses {
+    background-color: rgba(128, 128, 128, .6);
+    padding: 30px 45px;
+}
+.our-course {
+    text-align: center;
+}
+.our-course h2{
+    position: relative;
+}
+.our-course h2 span{
+    position: absolute;
+    width: 95px;
+    height: 3px;
+    background-color: yellow;
+    border: 1px solid transparent;
+    top: 35px;
+    left: 46%;
+}
+.our-course p{
+    font-size: 20px;
+    padding: 0px 120px;
+    margin-bottom: 60px;
+}
+
+#container{
+    margin-bottom: 20px;
+}
+.container-course img {
+    width: 380px;
+    height: 315px;
+    border: 7px solid yellow;
+    position: relative;
+    box-sizing: border-box;
+}
+.container-course span {
+    border: 1px solid yellow;
+    padding: 20px 60px 20px 30px ;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    border-bottom-right-radius: 150px;
+    position: absolute;
+}
+.Bodybuilding span {
+    left: 1.5%;
+}
+.crossfit span {
+    left: 1.5%;
+}
+.gymnastics span {
+    left: 1.5%;
+}
+.fitness-training span {
+    left: 1.5%;
+}
+.trx span {
+    left: 1.5%;
+}
+.boxing span {
+    left: 1.5%;
+}
+.course-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+/* --------- OFFER --------- */
+.offer {
+    display: flex;
+    padding: 20px 60px;
+    margin: 50px 0;
+}
+#offer-intro {
+    margin-top: 50px;
+    padding-right: 30px;
+}
+#offer-intro h1,p {
+    color: white;
+}
+#offer-intro h1 {
+    font-size: 25px;
+}
+#offer-intro h1 a {
+    color: yellow;
+    text-decoration: none;
+}
+
+#offer-intro p {
+    font-size: 19px;
+    word-spacing: 8px;
+}
+#offer-intro span{
+    border: 1px solid yellow;
+    padding: 12px 30px;
+    border-radius: 25px;
+    background-color:yellow;
+    color: black; 
+    position: relative;
+    top: 50px;     
+    font-size: 20px;
+}
+
+#offer-image {
+    position: relative;
+}
+#offer-image img {
+    width: 550px;
+    height: 350px;
+}
+#offer-image span {
+    position: absolute;
+    right: 1px;
+    top: 70.5%;
+    width:550px;
+    height: 100px;
+    background-color: yellow;
+    transform: skewy(-5deg);
+}
+#offer-image span p {
+    text-align: center;
+    color: black;
+    margin-top: 7%;
+    font-size: 18px;
+    font-weight: bold;
+}
+/* ----------- COACHES ------------ */
+.coaches {
+    padding: 60px 45px;
+}
+.our-coaches {
+    text-align: center;
+}
+.our-coaches h2{
+    position: relative;
+}
+.our-coaches h2 span{
+    position: absolute;
+    width: 95px;
+    height: 3px;
+    background-color: yellow;
+    border: 1px solid transparent;
+    top: 35px;
+    left: 46%;
+}
+.our-coaches p{
+    font-size: 20px;
+    padding: 0px 120px;
+    margin-bottom: 60px;
+}
+
+#container{
+    margin-bottom: 20px;
+    position: relative;
+}
+.container-coaches img {
+    width: 380px;
+    height:380px;
+    border: 7px solid yellow;
+    position: relative;
+    box-sizing: border-box;
+}
+.container-coaches span {
+    border: 1px solid yellow;
+    padding: 20px 60px 20px 30px ;
+    background-color: yellow;
+    color: black;
+    font-weight: bold;
+    border-bottom-right-radius: 150px;
+    position: absolute;
+}
+.prashant-sankiwar span {
+    left: 1%;
+    top: 82%;
+}
+.rozy-desouza span {
+    left: 1%;
+    top: 82%;
+}
+.ben-parkar span {
+    left: 1%;
+    top: 82%;
+}
+.coaches-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    position: relative;
+}
+ .social-link{
+     position: absolute;
+     left: 13.8%;
+     top: 39%;
+     border: 1px solid rgba(0, 0, 0, .2);
+    background-color: rgba(0, 0, 0, .4);
+    transform: rotate(90deg);   
+}
+.social-link    a img {
+    height: 50px;
+    width: 50px;
+    margin: 6px 19px;
+    border: none;
+    transform: rotate(-90deg);
+}
+.middle-img {
+    left: 47.2%;
+}
+.last-img {
+    left:56%;
+} 
+
+/* ----------- REVIEWS ------------ */
+.reviews {
+    padding: 60px 45px;
+    background-color: rgba(128, 128, 128, .4);
+}
+.our-reviews {
+    text-align: center;
+}
+.our-reviews h2{
+    position: relative;
+}
+.our-reviews h2 span{
+    position: absolute;
+    width: 95px;
+    height: 3px;
+    background-color: yellow;
+    border: 1px solid transparent;
+    top: 35px;
+    left: 46%;
+}
+.our-reviews p{
+    font-size: 20px;
+    padding: 0px 120px;
+    margin-bottom: 60px;
+}
+#container-reviews {
+    display: flex;
+    justify-content: space-around;
+}
+#reviews-img {
+    height: 320px;
+    width: 340px;
+    text-align: center;
+    padding: 20px;
+    box-shadow: 0px 0px 5px black;
+    border-radius: 10px;
+}
+#reviews-img img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+}
+#reviews-img p {
+    font-size: 18px;
+}
+#reviews-img span i {
+    font-size: 20px;
+    color: yellow;
+    text-decoration: underline;
+}
+
+/* ----------- GET IN TOUCH ------------ */
+.get-in-touch {
+    background-color: rgba(128, 128, 128, .3);
+    padding: 50px 20px;
+    display: flex;
+}
+.left-content input,textarea{
+    color: black;
+}
+.left-content{
+    margin: 0px 20px;
+    font-size: 20px;
+    font-weight: bold;
+}
+.left-content input{
+    width: 99%;
+    height: 25px;
+    border-radius: 8px;
+    border: 1px solid yellow;  
+}
+.left-content textarea{
+    border-radius: 8px;
+    border: 1px solid yellow;
+}
+.left-content label,input{
+    line-height: 40px;
+}
+.left-content h2{
+    position: relative;
+}
+.left-content h2 span{
+    position: absolute;
+    width: 120px;
+    height: 3px;
+    background-color: yellow;
+    border: 1px solid transparent;
+    top: 35px;
+    left: 0.2%;
+}
+.left-content .Submit{
+    border: 1px solid yellow;
+    padding: 12px 30px;
+    border-radius: 25px;
+    background-color:yellow;
+    color: black; 
+    position: relative;
+    top: 30px;     
+    font-size: 20px;
+}
+.right-content img {
+    width: 550px;
+    height: 450px;
+    border: 8px solid yellow;
+    border-radius: 15px;
+}
+/* ----------- CONTACT ------------ */
+.contact {
+    padding: 25px;
+    margin: 50px;
+    display: flex;
+    justify-content: space-around;
+}
+.left-contact {
+    text-align: center;
+}
+header img{
+    width: 115px;
+    height:110px;
+}
+header p{
+    font-size: 20px;
+}
+header p i span{
+    color: yellow;
+}
+header p i span:hover{
+    cursor: pointer;
+}
+footer span {
+    border: 1px solid yellow;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color:yellow;
+    color: black; 
+    position: relative;
+    top: 20px;     
+    font-size: 20px;
+}
+.social-contact img {
+    height: 30px;
+    width: 30px;
+    padding-right: 20px;
+    position: relative;
+    top: 50px;
+}
+#list-item h2{
+    color: yellow;
+}
+#list-item ul li a{
+    font-size: 18px;
+    line-height: 40px;
+    text-decoration: none;
+}
+#list-item ul li:hover {
+    cursor: pointer;
+}
+/* ----------- BOTTOM ------------ */
+.copy-rights {
+    color: black;
+    background-color: yellow;
+    text-align: center;
+    font-size: 20px;
+    font-family: sans-serif;
+    padding: 20px;
+}
+/* ----------- FRANCHISE ------------ */
+.bg-image-franchise {
+    background-image: url(https://images.pexels.com/photos/90764/man-studio-portrait-light-90764.jpeg?cs=srgb&dl=pexels-pixabay-90764.jpg&fm=jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.franchise {
+    margin-top: 125px;
+    text-align: center;
+}
+.franchise h1 {
+    
+    font-size: 50px;
+    padding: 70px 100px 0px 100px ;
+}
+.franchise p {
+    font-size: 20px;
+    padding: 0px 100px;
+    line-height: 25px;
+    margin-bottom: 80px;
+}
+.franchise span {
+    color: black;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 25px;
+}
+.franchise span:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px lightgreen;
+}
+
+/* ----------- GET IN TOUCH 2 ------------ */
+.get-in-touch-2 {
+    background-color:rgba(128, 128, 128, .3);
+    text-align: center;
+    padding: 50px;
+}
+.get-in-touch-2 {
+    font-size: 20px;
+}
+.box{
+    border: 2px  solid white;
+    border-radius: 5px;
+    margin: 50px 120px 0px ;
+    height: 380px;
+    padding: 50px;
+    line-height: 30px;
+}
+
+.name-number #first-name {
+    width: 70%;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.name-number #M-Number {
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.mail-dropdown #email {
+    width: 70%;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.mail-dropdown #dropdown {
+    width: 20.5%;
+    height: 40px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.mail-dropdown #dropdown option{
+    background-color: white;
+    color: black;
+}
+.occupation-location #occupation {
+    width: 45%;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.occupation-location #c-location {
+    width: 45%;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.area-location #area {
+    width: 45%;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+}
+.area-location #e-location {
+    width: 45%;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-left: 30px;
+}
+.msg #message {
+    width: 95%;
+    height: 35px;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    border-radius: 5px;
+    margin-bottom: 30px;
+}
+
+
+.box span{
+    color: black;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 25px;
+}
+.box span:hover{
+cursor: pointer;
+}
+/* ----------- GALLERY ------------ */
+.bg-image-gallery {
+    background-image: url(https://www.shutterstock.com/image-illustration/gym-weights-under-strong-dramatic-260nw-472696720.jpg);
+    width: 100%;
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.gallery {
+    margin-top: 125px;
+    text-align: center;
+}
+.gallery h1 {
+    
+    font-size: 50px;
+    padding: 70px 100px 0px 100px ;
+}
+.gallery p {
+    font-size: 20px;
+    padding: 0px 100px;
+    line-height: 25px;
+    margin-bottom: 80px;
+}
+.gallery span {
+    color: black;
+    background-color: yellow;
+    border: 1px solid black;
+    padding: 15px 30px;
+    font-size: 20px;
+    margin-top: 40px;
+    border-radius: 25px;
+}
+.gallery span:hover{
+    cursor: pointer;
+    box-shadow: 0px 0px 10px lightgreen;
+}
+/* ----------- TRANSFORMATION ------------ */
+.transformation {
+    background-color: rgba(128, 128, 128, .3);
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.our-transformation h2 {
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.our-transformation h2:hover {
+    cursor: pointer;
+}
+.our-transformation h2 span {
+    position: absolute;
+    width: 95px;
+    height: 3px;
+    background-color: yellow;
+    border: 1px solid transparent;
+    top: 35px;
+    left: 46%;
+}
+.transform-image  {
+    padding-right: 50px;
+}
+#transform-image-1 img {
+    width: 360px;
+    height: 300px;
+    padding:15px 30px;
+}
+/* ----------- GALLERY ------------ */
+.gallery-1 {
+    background-color: rgba(128, 128, 128, .3);
+    padding-top: 30px;
+    padding-bottom: 30px;   
+}
+.gallery-heading h2:hover{
+    cursor: pointer;
+}
+.gallery-heading h2{
+    text-align: center;
+    position: relative;
+    margin-bottom: 50px;
+}
+.gallery-heading h2 span{
+    position: absolute;
+    width: 90px;
+    height: 3px;
+    background-color: yellow;
+    border: 1px solid transparent;
+    top: 32px;
+    left: 46.5%;
+}
+.gallery-image {
+    margin-right: 20px;
+}
+.gallery-image-1 img {
+    width: 360px;
+    height: 300px;
+    padding: 10px 28px;
+}
+
+
+/* ----------- PRODUCT ------------ */
+.product {
+    display: flex;
+    padding: 20px 60px;
+    margin-top: 12%;
+}
+#starting-product {
+    padding-right: 30px;
+}
+#starting-product h1,p {
+    color: white;
+}
+#starting-product h1 {
+    font-size: 52px;
+}
+#starting-product p {
+    font-size: 19px;
+    word-spacing: 8px;
+}
+#starting-product span{
+    border: 1px solid blue;
+    padding: 12px 30px;
+    border-radius: 25px;
+    background-color:yellow;
+    color: black; 
+    position: relative;
+    top: 50px;     
+    font-size: 20px;
+}
+
+#product-image img {
+    width: 400px;
+    height: 500px;
+}
+/* ----------- PROTEIN ------------ */
+.protein {
+    background-color: rgba(128, 128, 128, .3);
+    padding: 50px 45px;
+}
+.our-protein {
+    text-align: center;
+}
+.our-protein h2{
+    position: relative;
+}
+.our-protein h2 span{
+    position: absolute;
+    width: 95px;
+    height: 3px;
+    background-color: yellow;
+    border: 1px solid transparent;
+    top: 35px;
+    left: 46%;
+}
+.our-protein p{
+    font-size: 20px;
+    padding: 0px 120px;
+    margin-bottom: 60px;
+}
+#protein-container {
+    display: flex;
+    justify-content: space-evenly;
+}
+#protein-image img{
+    width: 150px;
+    height: 150px;
+}
+#protein-image {
+    text-align: center;
+    line-height: 5px;
+}
+#protein-image p{
+    font-size: 20px;
+}
+#protein-image a{
+    font-size: 20px;
+    color: yellow;
+    font-weight: bold;
+}
+#protein-image a:hover{
+    cursor: pointer;
+}
